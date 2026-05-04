@@ -2,30 +2,88 @@
 # Dependencies
 node_modules/
 
+# Build artifacts
+dist/
+build/
+*.js.map
+*.cjs.map
+*.mjs.map
+
 # Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE files
+# IDE specific
 .vscode/
 .idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# Build artifacts
-dist/
-build/
-target/
+# Temporary files
+*.tmp
+*.swp
 
-# Python
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-venv/
-.venv/
-.env
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Binary files
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Frontend specific build artifacts
+supermarket-ecommerce/frontend/node_modules/
+supermarket-ecommerce/frontend/dist/
+supermarket-ecommerce/frontend/build/
+
 ```
