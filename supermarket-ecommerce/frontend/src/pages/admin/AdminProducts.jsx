@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useAuth } from '../../../context/AuthContext';
-import { productAPI } from '../../../utils/api';
+import { useAuth } from '../../context/AuthContext';
+import { productAPI } from '../../utils/api';
 import './Admin.css';
 
 const AdminProducts = () => {
