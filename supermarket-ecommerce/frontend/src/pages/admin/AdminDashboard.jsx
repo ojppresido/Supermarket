@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useAuth } from '../../context/AuthContext';
-import { orderAPI, productAPI } from '../../utils/api';
+import { useAuth } from '../context/AuthContext';
+import { orderAPI, productAPI } from '../utils/api';
 import './Admin.css';
 
 const AdminDashboard = () => {

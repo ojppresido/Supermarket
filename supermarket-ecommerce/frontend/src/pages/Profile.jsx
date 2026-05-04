@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { authAPI, productAPI } from '../../utils/api';
-import { useAuth } from '../../context/AuthContext';
+import { authAPI, productAPI } from '../utils/api';
+import { useAuth } from '../context/AuthContext';
 
 const Profile = () => {
   const { user, login } = useAuth();

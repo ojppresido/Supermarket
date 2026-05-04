@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { orderAPI } from '../../utils/api';
-import { useAuth } from '../../context/AuthContext';
+import { orderAPI } from '../utils/api';
+import { useAuth } from '../context/AuthContext';
 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);

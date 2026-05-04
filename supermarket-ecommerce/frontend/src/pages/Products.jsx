@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { productAPI } from '../../utils/api';
-import { useCart } from '../../context/CartContext';
+import { productAPI } from '../utils/api';
+import { useCart } from '../context/CartContext';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
