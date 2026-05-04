@@ -2,33 +2,30 @@
 # Dependencies
 node_modules/
 
-# Build artifacts
-dist/
-build/
-
-# Environment
+# Environment variables
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE files
 .vscode/
 .idea/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+target/
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Logs
-*.log
-
-# Temp files
-*.tmp
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
+.Python
+venv/
+.venv/
+.env
 ```
